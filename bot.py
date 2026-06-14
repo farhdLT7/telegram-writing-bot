@@ -23,7 +23,7 @@ from telegram import Bot
 # ─────────────────────────────────────────────
 BOT_TOKEN   = os.environ.get("BOT_TOKEN", "")
 CHANNEL_ID  = os.environ.get("CHANNEL_ID", "")
-INTERVAL_H  = int(os.environ.get("INTERVAL_HOURS", "1"))   # پیش‌فرض: هر ۴ ساعت
+INTERVAL_H  = int(os.environ.get("INTERVAL_HOURS", "1"))   # پیش‌فرض: هر 1 ساعت
 RUN_MODE    = os.environ.get("RUN_MODE", "once")            # "once" یا "loop"
 
 logging.basicConfig(
